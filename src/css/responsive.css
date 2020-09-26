@@ -1,0 +1,457 @@
+
+/*
+                                CSS responsive Portable
+*/
+@media screen and (min-width:274px) and (max-width:881px){
+                                    /*Accueil */
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1.5em;
+        margin: 30% auto 25px auto;
+    }
+
+    h3 {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .name{
+        line-height: 1em;
+        width: 100%;
+        margin: 10% auto 10% auto;
+    }
+
+    .banner {
+        background-size: cover;
+        height: 400px;
+    }
+
+    .contact{
+        width:60%;
+        align-items: center;
+    }
+
+    .titlenav{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-right: 10px;
+    }
+
+    .div-image{
+        width: 100%;
+    }
+
+    .div-image>h2{
+        font-size:1em;
+        width:100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+                                /* css articles*/
+                                    /*aside*/
+
+    .titles{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto 10px auto;
+    }
+
+    .titleStore{
+        width:50%;
+       margin: 5px auto 5px auto;
+    }
+
+    .titleForm{
+        width:100%;
+        color: black;
+        margin-top: 20%;
+    }
+                                /*section*/
+    
+    .feature .content{
+        width: 80%;
+        padding: 1em 0.5em 0.1em 0.5em;
+        text-align: justify; 
+        margin: 0 auto 0 auto;
+    }
+
+    .content>h3{
+        text-align: center;
+    }
+
+    .feature .images{
+        width: 80%;
+        padding: 1em 2em 0.1em 1em;
+    }
+
+    .feature.left{
+        flex-direction: column;
+    }
+
+    .feature.right{
+        flex-direction: column;
+    }
+
+    .zoom-picture {
+        max-height : 100vmin;
+        width : 100%;
+        text-align: center;
+    }
+
+   
+
+
+
+}
+/*
+    .slider{
+        background: url(img/salonrouge-mobile.jpg) center center / cover no-repeat ;    
+        }
+    
+        .menuiserie{
+            background: url(img/volet-pvc-mobile.jpg) center center / cover no-repeat ;
+        }
+    
+        .volet{
+            background: url(img/volet-coffre-mobile.jpg) center center / cover no-repeat ;
+        }
+    
+        .cloisonnage{
+            background: url(img/cloison-mobile.jpg) center center / cover no-repeat ;
+        }
+    
+        .store{
+            background: url(img/store-mobile.jpg) center center / cover no-repeat ;
+        }
+        .pergola{
+            background: url(img/pergolabio-mobile.jpg) center center / cover no-repeat ;
+        }
+        .veranda{
+            background: url(img/veranda-mobile.jpg) center center / cover no-repeat ;
+        }
+        .titles{
+            flex-direction: column;
+        }
+}*/
+
+
+/*
+                                CSS responsive Tablette
+*/
+
+@media screen and (min-width:882px) and (max-width:1224px) {
+                                    /*Accueil */
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 2em;
+        width: 15em;
+        margin: 20% auto 25px auto;
+    }
+
+    h3{
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+
+    .name{
+        line-height: 1em;
+        width: 100%;
+        height: 70px;
+    }
+    .titleName{
+        height: 70px;
+    }
+
+    .home {
+        font-size: 1.5em;
+        padding-right: 20%;
+    }
+
+    .banner {
+        background-size: cover;
+        height: 450px;
+    }
+
+    .contact{
+        width: 60%;
+    }
+
+    .titlenav{
+        margin-right: 10px;
+        text-transform: uppercase;
+    }
+
+
+    .div-image {
+        width: 45%;
+        margin: 0 20px 0 20px;
+        justify-content: space-around;
+    }
+
+                             /* css article*/
+                                /*aside*/
+    .titles{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 40px 20px 40px 20px;
+        opacity: 0.6;
+    }
+
+                                 /*section*/
+    .wrapper > .inner{
+        width: 90%;
+    }
+
+
+                                 /*articles*/
+
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+    .feature .images {
+        width: 30%;
+        padding: 1em 2em 0.1em 1em;
+    }
+
+                                /*prestations*/
+
+    .zoom-picture {
+        max-height : 70vmin;
+        width : 100%;
+    }
+
+    .titleStore {
+        width: 150px;
+        margin: 0 auto 0 auto;
+    }
+    .titleForm{
+        width:100%;
+        color: black;
+        margin-top: 10%;
+    }
+}
+
+  /*
+
+    .slider{
+        background: url(img/salonrouge-desktop.jpg) center center / cover no-repeat ;    
+       }
+   
+       .menuiserie{
+           background: url(img/volet-pvc-desktop.jpg) center center / cover no-repeat ;
+       }
+   
+       .volet{
+           background: url(img/volet-coffre-desktop.jpg) center center / cover no-repeat ;
+       }
+   
+       .cloisonnage{
+           background: url(img/cloison-desktop.jpg) center center / cover no-repeat ;
+       }
+   
+       .store{
+           background: url(img/store-desktop.jpg) center center / cover no-repeat ;
+       }
+       .pergola{
+           background: url(img/pergolabio-desktop.jpg) center center / cover no-repeat ;
+       }
+       .veranda{
+           background: url(img/veranda-desktop.jpg) center center / cover no-repeat ;
+       }
+}*/
+
+/*
+                                CSS responsive Desktop
+*/
+
+
+@media screen and (min-width:1225px) and (max-width:3006px){
+                                    /*Accueil */
+    h2{
+        margin-top:15%;
+        font-size: 3em;
+        width: 15em;
+    }
+
+    h3{
+        font-size: 2em;
+        line-height: 1em;
+    }
+
+    .button{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 10;
+        height: 40%;
+        margin-left: 25px;
+    }
+
+    .name{
+        line-height: 1.5em;
+        font-size: 3em;
+        margin: 10% auto 10% auto;
+    }
+
+    .home{
+        font-size: 1.5em;
+        padding-right: 25px;
+    }
+
+    .banner{
+        background-attachment: fixed;
+        background-size: cover;
+        height:600px;
+    }
+
+    .contact{
+        width: 30%;
+    }
+
+    .div-image{
+        width:30%;
+    }
+
+
+                                /* css article*/
+                                    /*aside*/
+
+    .titles{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 40px 20px 40px 20px;
+        opacity: 0.6;
+    }
+
+                                /*section*/
+
+    .wrapper > .inner{
+        width: 80em;
+    }
+
+    /*article*/
+    .feature.left{
+        flex-direction: row;
+    }
+
+    .feature.right{
+        flex-direction: row-reverse;
+    }
+
+    .feature .content{
+        width: 52%;
+        padding: 1em 2em 0.1em 1em;
+    }
+
+    .feature .images{
+        width: 48%;
+        padding: 1em 2em 0.1em 1em;
+    }
+
+
+    /*prestation*/
+
+    .titleStore{
+        width: 17%;
+        font-size: 0.7em;
+    }
+
+    .zoom-picture {
+        max-height: 500px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .titleForm{
+        width:100%;
+        color: black;
+        margin-top: 10%;
+    }
+
+}
+
+
+
+       
+/*
+    
+@media (min-width: 769px){
+  
+    .slider{
+     background: url(img/salonrouge-desktop.jpg) center center / cover no-repeat ;    
+    }
+
+    .menuiserie{
+        background: url(img/volet-pvc-desktop.jpg) center center / cover no-repeat ;
+    }
+
+    .volet{
+        background: url(img/volet-coffre-desktop.jpg) center center / cover no-repeat ;
+    }
+
+    .cloisonnage{
+        background: url(img/cloison-desktop.jpg) center center / cover no-repeat ;
+    }
+
+    .store{
+        background: url(img/store-desktop.jpg) center center / cover no-repeat ;
+    }
+    .pergola{
+        background: url(img/pergolabio-desktop.jpg) center center / cover no-repeat ;
+    }
+    .veranda{
+        background: url(img/veranda-desktop.jpg) center center / cover no-repeat ;
+    }
+
+}*/
+/*
+@media (max-width: 768px){
+.slider{
+    background: url(img/salonrouge-mobile.jpg) center center / cover no-repeat ;    
+    }
+
+    .menuiserie{
+        background: url(img/volet-pvc-mobile.jpg) center center / cover no-repeat ;
+    }
+
+    .volet{
+        background: url(img/volet-coffre-mobile.jpg) center center / cover no-repeat ;
+    }
+
+    .cloisonnage{
+        background: url(img/cloison-mobile.jpg) center center / cover no-repeat ;
+    }
+
+    .store{
+        background: url(img/store-mobile.jpg) center center / cover no-repeat ;
+    }
+    .pergola{
+        background: url(img/pergolabio-mobile.jpg) center center / cover no-repeat ;
+    }
+    .veranda{
+        background: url(img/veranda-mobile.jpg) center center / cover no-repeat ;
+    }
+          
+}*/
+
+
+
+
+
+ 
+ 

@@ -1,0 +1,127 @@
+.style2{
+    background-color: #EEE;
+    color: black;
+    position: relative;
+}
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+
+input:focus {
+    background: #18455D;
+    color: #C4C4C4;
+}
+
+input, textarea {
+    width: 249px;
+}
+
+textarea {
+    height: 100px;
+}
+
+select {
+    width: 254px;
+}
+
+input[type=checkbox] {
+    width: 10px;
+}
+
+input[type=submit] {
+    width: 150px;
+    padding: 10px;
+}
+
+section.special{
+    text-align: center;
+
+}
+
+header.narrow{
+    max-width: 100%;
+    margin: 40px auto 40px auto;
+    align-items: center;
+}
+
+header.major{
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100vw
+}
+
+.row{
+    border-bottom: solid 1px transparent;
+    box-sizing: border-box;
+}
+
+form ul.actions{
+    cursor: default;
+    
+}
+
+.form{
+    max-width:1000px;
+    margin: 0 auto;
+    width:100%; 
+    content: "";	
+    clear: both; 
+    text-align: center;
+}
+
+.formGroup {
+    width: 100%;
+    float: left;
+	position: relative;
+	padding: 2em;
+	width:100%;
+	-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.message{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea{
+    padding: 8px;
+    border: 1px solid #0b2530;
+    border-radius: 3%;
+    width: 300px;
+    margin: 15px;
+} 
+input[type="radio"]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color:#0b2530;
+    color: #fff;
+}
+
+
+

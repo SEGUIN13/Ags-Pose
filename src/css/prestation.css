@@ -1,0 +1,104 @@
+/*header.narrow{
+    max-width: 75%;
+    margin: 4em auto 0 auto;   
+}*/
+
+.img{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.zoom-list {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    margin : 0;
+    padding : 0;
+    list-style : none;
+}
+
+.zoom-list-item {
+    margin : 1em 0.5rem;
+}
+
+.zoom-thumbnail {
+    border : 3px solid rgba(255,255,255,0.3);
+    border-radius : 1rem;
+    filter : grayscale(60%);
+    cursor : pointer;  /*indique une action possible*/
+    transition : border 1s linear;
+}
+
+.zoom-thumbnail:hover {
+    border-color :  white;
+    filter : grayscale(0);
+    transform:scale(1.2);
+}
+
+.zoom-thumbnail.selected {
+    border-color :  white;
+    filter : grayscale(0);
+    cursor : not-allowed;
+}
+
+/* Jouer avec les positions pour afficher la légende sur l'image agrandie */
+.zoom {
+    position: relative;
+    /* Pour que la figure (block par défaut) n'occupe que la place de l'image */
+    display: inline-block;
+    margin : 0;
+    width: 100%;
+
+}
+
+.zoom-picture {
+    border : 5px solid  #18455D;
+    border-radius : 1rem;
+}
+
+.zoom-legend {
+    position : absolute;
+    z-index : 1000;
+    bottom : 0.5rem; left : 0.5rem; right : 0.5rem;
+    background-color : #18455D;
+    border-radius : 0 0 0.5rem 0.5rem;
+    color : white;
+    font-size : 2vw;
+    font-weight: 600;
+    text-align: center;
+}
+/*
+@keyframes zoom-in {
+    from {
+        opacity : 0;
+        transform : scale(0.5);
+    }
+    to {
+        opacity : 1;
+        transform : scale(1);
+    }
+}
+
+@keyframes zoom-out {
+    from {
+        opacity : 1;
+        transform : scale(1);
+    }
+    to {
+        opacity : 0;
+        transform : scale(0.5);
+    }
+}
+
+.zoom-in {
+    animation: zoom-in 1s ease;
+}
+
+.zoom-out {
+    animation: zoom-out 0.5s ease-in-out;
+}
+
+.zoom-in, .zoom-out {
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,59 @@
+
+
+
+/* section*/
+
+.titleStore{
+    background-color:#C4C4C4 ;
+    border-radius: 9%;
+    color: #18455D;  
+    text-align: center;
+}
+
+.titleStore:hover{
+    background-color:#18455D ;
+    color: #C4C4C4;
+}
+
+.wrapper{
+    position: relative;
+    padding: 2em 0 2em 0;
+    background-color: #EEE;
+    color: #777;
+}
+
+.wrapper > .inner{
+    margin: 0 auto;
+    vertical-align: baseline;
+}
+
+.wrapper .style1{
+    background-color: #EEE;
+    color: #777;
+}
+
+.feature{
+    margin-bottom: 4em;
+    display: flex;
+    align-items: center;
+}
+
+.images{
+    display: inline-block;
+    position: relative;
+}
+
+
+.wrapper.style1 h1,
+.wrapper.style1 h2,
+.wrapper.style1 h3,
+.wrapper.style1 h4,
+.wrapper.style1 h5,
+.wrapper.style1 h6 {
+    color: #555;
+}
+
+
+
+
+

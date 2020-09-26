@@ -1,0 +1,350 @@
+html, body {
+    height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    scroll-behavior : smooth;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: currentColor;
+  transition: .2s ease-in-out;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+main > div {
+  margin: auto;
+  z-index: 0;
+}
+
+main h2 span {
+  color: #BF7497;
+}
+
+main p {
+  line-height: 1.5;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-transform: uppercase;
+  display: inline-block;
+  color: azure;
+  backdrop-filter: opacity(40%);
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.small{
+  color: azure;
+  font-size: larger;
+  margin-top: 0;
+}
+
+.h3-accueil{
+  backdrop-filter: opacity(60%);
+  color: azure;
+  text-align: center;
+}
+
+.banner{
+  width: 100%;
+  display: block;
+  text-align: center;
+  top: 0;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  background:#0b2530 ;
+  color:azure;
+  padding: 10px 25px 10px 10px;
+  bottom:0;
+}
+
+/* css page accueil */
+
+
+.button{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.name{
+  text-transform: uppercase;
+  text-align: center;
+  color: azure;
+}
+
+.home{
+  display: inline-flex;
+  text-transform: uppercase;
+}
+
+.div-image>h2{
+  font-size: 1.5em;
+  color: black;
+}
+
+/* css article*/
+
+.product {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px  40px 30px 40px;
+
+  }
+
+.flex{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content {
+  width:80%;
+}
+
+
+/* css main-images- Accueil*/
+
+.contact{
+  padding: 10px;
+  margin: 40px auto 20px auto;
+  align-items: center;
+  border-radius: 9%;
+  background-color: #0b2530;
+  color: azure;
+  text-align: center;
+  font-size: 2em;
+}
+
+.div-image{
+  text-align: center;
+}
+
+
+.title{
+  margin: 30px;
+  background-color: #ddddda;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.titleName{
+  width: 100%;
+  text-align: center;
+}
+
+.zoom div img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.zoom div:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.zomm{
+  transform: scale(1.1);
+  transition: 3s ease-in-out;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+}
+
+.connect{
+  height: 100vh;
+}
+
+.form>div{
+  height: 50px;
+  width: 300px;
+  border: solid 2px #0b2530;
+  background-color: #555 ;
+  color: white;
+  margin: 3px auto 3px auto;
+  padding-top: 10px;
+}
+
+.slider{
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+/*  Images de bannieres  */
+.bannerAccueil{
+  background-image: url(../img/banniere/accueil.jpg);
+}
+
+.bannerCloisonnage{
+  background-image: url(../img/banniere/baie.jpg);
+}
+
+.bannerVolet{
+  background-image: url(../img/banniere/coulissant.jpg);
+}
+
+.bannerMenuiserie{
+  background-image: url(../img/banniere/menuiserie.jpg);
+}
+
+.bannerStore{
+  background-image: url(../img/banniere/store.jpg);
+}
+
+.bannerPergola{
+  background-image: url(../img/banniere/pergola.jpg);
+}
+
+.bannerCoffre{
+  background-image: url(../img/banniere/brisesoleil.jpg);
+}
+
+.bannerPrestation{
+  background-image: url(../../src/img/banniere/prestation.jpg);
+}
+/*
+.bannerContact{
+  background-image: url(../img/banniere/contact.jpg);
+}*/
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 200px;
+  margin: 0px auto 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-size: 236px;
+  font-weight: 200;
+  margin-top: 0;
+  color: #0b2530;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #0b2530;
+  background: #fff;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 23px;
+  background: #ff6300;
+  font-size: 18px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #ff6300;
+  background: #211b19;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 h1 {
+    font-size: 148px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    height: 148px;
+    margin: 0px auto 10px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 86px;
+  }
+  .notfound .notfound-404 h2 {
+    font-size: 16px;
+  }
+  .notfound a {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+  
